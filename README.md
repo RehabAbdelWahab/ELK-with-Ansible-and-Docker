@@ -1,4 +1,4 @@
-# ELK-stack-with-Ansible-and-Docker
+# ELK-with-Ansible-and-Docker
 
 
 # How to run:
@@ -24,7 +24,7 @@
 $ ansible-playbook -i inventory elk.yml
 
 
-# Clean the ELK stack.
+# Clean the ELK stack
 
 
 $ ansible-playbook -i inventory elk-clean.yml
@@ -43,7 +43,7 @@ $ ansible-playbook -i inventory elk-clean.yml
 Enter your username: elastic
 
 
-Enter your Pass: oOYUXhSg2DcImWEsPpR5
+Enter your Pass: "oOYUXhSg2DcImWEsPpR5"  
 
 
 ![alt text](https://github.com/RehabAbdelWahab/ELK-with-Ansible-and-Docker/blob/master/imgs/4.PNG)
