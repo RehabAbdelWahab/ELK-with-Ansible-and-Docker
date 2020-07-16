@@ -43,7 +43,9 @@ $ ansible-playbook -i inventory elk-clean.yml
 Enter your username: elastic
 
 
-Enter your Pass: "oOYUXhSg2DcImWEsPpR5"  
+Enter your Pass: <vault_elastic_password> 
+
+you will find it in "inventory\group_vars\all\vault.yml" file
 
 
 ![alt text](https://github.com/RehabAbdelWahab/ELK-with-Ansible-and-Docker/blob/master/imgs/4.PNG)
@@ -54,7 +56,9 @@ Enter your Pass: "oOYUXhSg2DcImWEsPpR5"
 Enter your username: elastic
 
 
-Enter your Pass: oOYUXhSg2DcImWEsPpR5
+Enter your Pass: <vault_elastic_password> 
+
+you will find it in "inventory\group_vars\all\vault.yml" file
 
 
 ![alt text](https://github.com/RehabAbdelWahab/ELK-with-Ansible-and-Docker/blob/master/imgs/5.PNG)
