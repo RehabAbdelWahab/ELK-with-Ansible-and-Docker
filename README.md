@@ -24,7 +24,7 @@
 $ ansible-playbook -i inventory elk.yml
 
 
-# Clean the ELK stack.
+# Clean the ELK stack
 
 
 $ ansible-playbook -i inventory elk-clean.yml
@@ -43,7 +43,7 @@ $ ansible-playbook -i inventory elk-clean.yml
 Enter your username: elastic
 
 
-Enter your Pass: H9H9YOuu75SwFYKSTIVJ
+Enter your Pass: "H9H9YOuu75SwFYKSTIVJ" as it's written in "inventory\group_vars\all\vault.yml"
 
 
 ![alt text](https://github.com/RehabAbdelWahab/ELK-with-Ansible-and-Docker/blob/master/444.PNG)
