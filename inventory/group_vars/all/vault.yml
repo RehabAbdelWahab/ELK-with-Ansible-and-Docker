@@ -1,0 +1,6 @@
+#Changed password for user kibana
+vault_kibana_password: H9H9YOuu75SwFYKSTIVJ
+
+#Changed password for user elastic
+vault_elastic_password: oOYUXhSg2DcImWEsPpR5
+

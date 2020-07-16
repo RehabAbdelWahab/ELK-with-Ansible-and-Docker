@@ -1,0 +1,25 @@
+server_name: 172.30.72.228
+network_name: elastic
+
+nginx_image: nginx:1.15-alpine
+nginx_hostname: ng01
+nginx_conf_dir: /usr/share/nginx
+
+elasticsearch_image: docker.io/elasticsearch:7.6.2   
+elasticsearch_hostname: es01
+elasticsearch_conf_dir: /usr/share/elasticsearch
+
+kibana_image: docker.io/kibana:7.6.2   
+kibana_hostname: ki01
+
+logstash_image: docker.io/logstash:7.6.2   
+logstash_hostname: lo01
+logstash_conf_dir: /usr/share/logstash
+
+certbot_image: certbot/certbot
+certbot_hostname: cb01
+certbot_conf_dir: /usr/share/certbot
+certbot_email: info@example.com
+
+elastic_password: "{{ vault_elastic_password }}"
+kibana_password: "{{ vault_kibana_password }}"
