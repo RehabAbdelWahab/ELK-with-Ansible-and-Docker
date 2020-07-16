@@ -4,7 +4,7 @@
 # How to run:
 
 
-# Open \inventory\hosts.yml file and this data with your ip and credentials 
+# Open "inventory\hosts.yml" file and change this data with your ip and credentials 
 
 
   ansible_host: <your_server_ip>
