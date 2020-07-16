@@ -1,4 +1,4 @@
-# ELK-stack-with-Ansible-and-Docker
+# ELK-with-Ansible-and-Docker
 
 
 # How to run:
