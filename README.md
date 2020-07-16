@@ -32,7 +32,7 @@ $ ansible-playbook -i inventory elk-clean.yml
 
 Here is the Ansible output:
 
-![alt text](https://github.com/RehabAbdelWahab/ELK-stack-with-Ansible-and-Docker/blob/master/111.png)
+![alt text](https://github.com/RehabAbdelWahab/ELK-with-Ansible-and-Docker/blob/master/111.PNG)
 
 
-![alt text](https://github.com/RehabAbdelWahab/ELK-stack-with-Ansible-and-Docker/blob/master/222.png)
+![alt text](https://github.com/RehabAbdelWahab/ELK-with-Ansible-and-Docker/blob/master/222.PNG)
